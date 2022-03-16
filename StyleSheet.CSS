@@ -1,0 +1,189 @@
+﻿body {
+    background-image:url(Gulf.jpg)
+    flex-direction:column;
+    background-color:whitesmoke;
+    margin:0;
+    
+
+   
+
+   
+
+}
+.Headshot {
+   
+
+}
+    .Headshot:hover {
+        transform:rotate(360deg);
+    }
+h1{
+    text-transform:capitalize;
+    text-decoration-line:underline;
+    text-align:center;
+   
+    
+    
+    
+}
+h1:hover{
+    text-transform:capitalize;
+}
+
+p{
+    text-align:right;
+    margin:auto;
+    font-style:oblique;
+    
+
+
+    
+}
+
+background{
+   
+
+      
+}
+
+h2{
+    
+    text-decoration:underline;
+ font-family:cursive;
+ font-style:italic;
+    
+    
+   
+   
+      
+     
+  
+
+}
+h2:hover{
+    text-transform:capitalize;
+}
+div {
+    background-color:lightgrey;
+    width:300px;
+    
+    padding:50px;
+    margin:20px;
+}
+
+.Coding-Images  {
+    float:left;
+    margin-right:auto;
+    display:flex;
+
+    
+
+
+     
+   
+    
+  
+    
+}
+  h3{
+      text-transform:capitalize;
+      text-decoration:underline;
+      font-style:italic;
+      text-align:center;
+     
+
+  }  
+  h3:hover{
+      text-transform:capitalize;
+  }
+.Contact  {
+    color:black;
+}
+ 
+.Contact:hover{
+    color:#58b;
+}
+
+
+
+ 
+
+  .Goals{
+      text-align:center;
+      border-style:hidden;
+     
+      text-align:center;
+  }
+
+ .Contact {
+      text-align:center;
+      font-style:italic;
+      margin:auto;
+  }
+
+ h6{
+     text-align:center;
+     margin:auto;
+    
+ }
+ h6:hover{
+     text-transform:capitalize;
+ }
+
+.Container{
+    width:80%;
+    margin: 0;
+    background-color:whitesmoke;
+}
+
+header{
+   background-color:whitesmoke;
+}
+nav{
+    float:right;
+
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+nav li {
+    
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    position: relative;
+}
+nav a {
+    color:#444;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:14px;
+}
+nav a:hover{
+    color:#000;
+}
+nav a::before{
+    content: '';
+    display:block;
+    height:5px;
+    width:100%;
+    background-color:#444;
+    position:absolute;
+    top:0;
+     width:0%;
+     transition: all ease-in-out 250ms;
+
+}
+
+nav a:hover::before{
+    width:100%
+}
+ 
+   
